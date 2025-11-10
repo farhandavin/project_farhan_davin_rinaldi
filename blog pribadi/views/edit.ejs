@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css"> <title>Edit Post</title>
+</head>
+<body id="edit">
+<h1>Edit Post</h1>
+
+<form action="/update" method="POST" id="editForm"> 
+  <div class="mb-3" id="juduledit">
+    <label for="judul">Judul</label>
+    <input type="text" name="judul" required value="<%= post.judul %>">
+  </div>
+  <div class="mb-3" id="pesanedit">
+    <label for="pesan">Pesan</label>
+    <textarea class="form-control" rows="3" name="pesan" required><%= post.pesan %></textarea>
+  </div>
+  
+  <input type="hidden" name="postIndex" value="<%= index %>">
+
+  <input type="submit" value="Simpan Perubahan" id="submitButton">
+</form>
+
+</body>
+<%- include("partials/footer.ejs") %>
+</html>
