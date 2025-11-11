@@ -1,20 +1,27 @@
-var randomNumber1=Math.floor(Math.random()*6)+1;
- var randomDice="images/dice"+randomNumber1+".png";
-var imga1= document.querySelectorAll("img")[0];
-imga1.setAttribute("src", randomDice);
+// --- Blok Dadu 1 ---
+// Path gambar diubah menjadi absolut (diawali dengan "/")
+var randomNumber1 = Math.floor(Math.random() * 6) + 1;
+var randomDiceImage1 = "./images/dice" + randomNumber1 + ".png"; 
+var image1 = document.querySelectorAll("img")[0];
+image1.setAttribute("src", randomDiceImage1);
+
+// --- Blok Dadu 2 ---
+// Path gambar diubah menjadi absolut (diawali dengan "/")
+var randomNumber2 = Math.floor(Math.random() * 6) + 1;
+var randomDiceImage2 = "./images/dice" + randomNumber2 + ".png"; 
+var image2 = document.querySelectorAll("img")[1];
+image2.setAttribute("src", randomDiceImage2);
 
 
-var randomNumber2=Math.floor(Math.random()*6)+1;
-var randomDice1="images/dice"+randomNumber2+".png";
-var imga2=document.querySelectorAll("img")[1];
-imga2.setAttribute("src", randomDice1);
+// --- Blok Penentu Pemenang ---
+// Lebih efisien memilih h1 satu kali saja
+var titleElement = document.querySelector("h1");
 
-
-if (randomNumber1==randomNumber2) {
-    var h11=document.querySelector("h1").innerText="draw";  
-}else if (randomNumber1>randomNumber2) {
-    var h11=document.querySelector("h1").innerText="player 1 win";
-}else if(randomNumber1<randomNumber2){
-    var h11=document.querySelector("h1").innerText="player 2 win";
+if (randomNumber1 === randomNumber2) {
+    titleElement.innerText = "Draw!"; // Menggunakan innerText
+} else if (randomNumber1 > randomNumber2) {
+    titleElement.innerText = "🚩 Player 1 Wins!";
+} else {
+    // Tidak perlu "else if", "else" saja sudah cukup
+    titleElement.innerText = "Player 2 Wins! 🚩";
 }
-

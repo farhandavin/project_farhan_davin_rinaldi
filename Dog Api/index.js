@@ -18,8 +18,8 @@ app.get("/", async (req, res) => {
     try {
         // Lakukan request GET ke Dog API untuk mendapatkan gambar acak
         const response = await axios.get(dogApiUrl);
-        const imageUrl = response.data.message; // URL gambar ada di properti 'message'
-
+        const imageUrl = response.data.message; 
+       
         // Render halaman EJS dan kirim URL gambar
         res.render("index.ejs", {
             dog: imageUrl

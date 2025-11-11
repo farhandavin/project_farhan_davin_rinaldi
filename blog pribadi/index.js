@@ -1,31 +1,38 @@
 import express from "express";
 import bodyParser from "body-parser";
-import {dirname, parse} from "path";
+import { dirname } from "path";
 import { fileURLToPath } from "url";
+import path from "path"; // <-- 1. TAMBAHKAN INI
+
 const __dirname = dirname(fileURLToPath(import.meta.url));
-
 const app = express();
-const port = 3000;
-app.use(express.static("public"));
-var blog=[];
+const port = process.env.PORT || 3000; // <-- 3. UBAH INI
 
+app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
-app.get("/", (req,res)=>{
-res.render("index.ejs", {blog: blog});
+
+// <-- 2. TAMBAHKAN DUA BARIS INI
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'views'));
+
+var blog = [];
+
+app.get("/", (req, res) => {
+  res.render("index.ejs", { blog: blog });
 });
 
-app.post("/submit", (req,res)=>{
+app.post("/submit", (req, res) => {
   const judul = req.body["judul"];
   const pesan = req.body["pesan"];
-  
-  blog.push({judul: judul, pesan: pesan});
+
+  blog.push({ judul: judul, pesan: pesan });
   console.log(blog);
   res.redirect("/");
 });
 
 app.post("/delete", (req, res) => {
   const postIndex = parseInt(req.body.postIndex);
-  if (postIndex >-1 && postIndex < blog.length) {
+  if (postIndex > -1 && postIndex < blog.length) {
     blog.splice(postIndex, 1);
   }
   res.redirect("/");
@@ -54,4 +61,3 @@ app.post("/update", (req, res) => {
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
 });
-

@@ -8,19 +8,18 @@
 </head>
 <body class="container" id="index">
 <h1>blog farhan davin</h1>
+
 <form action="/submit" method="POST"> 
   <div class="mb-3" id="judul">
-  <label for="judul">judul</label>
-  <input type="text" name="judul" required placeholder=" masukkan judul">
-   
+    <label for="judul">judul</label>
+    <input type="text" name="judul" required placeholder=" masukkan judul">
   </div>
   <div class="mb-3" id="pesan">
     <label for="pesan">pesan</label>
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="pesan" required placeholder="tulis sebuah pesan...."></textarea>
     <input type="submit" value="Submit">
   </div>
-
-  <div class="blog">
+</form> <div class="blog">
    <% if(locals.blog && locals.blog.length > 0) { %>
      <h2>Blog Posts</h2>
      <ul>
@@ -28,7 +27,7 @@
         <li class="post"><h3><%= post.judul %></h3>
         <p><%= post.pesan %></p>
 
-<a href="/edit/<%= index %>">edit</a>
+        <a href="/edit/<%= index %>">edit</a>
 
         <form action="/delete" method="post" style="display: inline;">
           <input type="hidden" name="postIndex" value="<%= index %>">
@@ -41,7 +40,7 @@
   <%  } else { %>
      <p>No blog posts available.</p>
   <% } %>
-  </div>
+</div>
 
 </body>
 <%- include("partials/footer.ejs") %>
