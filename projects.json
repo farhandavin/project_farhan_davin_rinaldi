@@ -22,7 +22,7 @@
   },
   {
     "imageUrl": "./images/movie_practice_react.png",
-    "title": "Movie_practice_react",
+    "title": "Movie practice react",
     "description": "saya membuat ini agar bisa lebih paham dalam penggunaan framework react, ini adalah website list movie dari penjuru dunia dengan menggunakan API public",
     "viewUrl": "https://movie-practice-react-kt3w.vercel.app/",
     "repoUrl": "https://github.com/farhandavin/Movie_practice_react"
