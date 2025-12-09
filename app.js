@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <a href="${project.viewUrl}" class="btn btn-sm btn-outline-secondary">View</a>
                     <a href="${project.repoUrl}" class="btn btn-sm btn-outline-secondary">Repository</a>
                   </div>
+                  <small class="text-body-secondary">${project.time}</small>
                 </div>
               </div>
             </div>

@@ -1,51 +1,16 @@
 [
   {
-    "imageUrl": "./images/blog_farhan.png",
-    "title": "blog pribadi",
-    "description": "Selamat datang di blog saya! Ini adalah tempat saya belajar menggunakan CRUD dengan cara membuat Blog sederhana. Blog ini saya bangun sendiri sebagai salah satu proyek coding. Terima kasih sudah berkunjung!",
-    "viewUrl": "https://blog-pribadi-farhan.vercel.app/",
-    "repoUrl": "https://github.com/farhandavin/blog_pribadi_farhan"
+    "imageUrl": "./images/financeTracker.png",
+    "title": "Finance Tracker Ai",
+    "description": "A personal finance management application featuring a unique hand-drawn (paper) aesthetic. It goes beyond simple tracking by integrating Google Gemini AI to provide intelligent financial insights and personalized advice.",
+    "viewUrl": "",
+    "repoUrl": "https://github.com/farhandavin/FinanceTracker"
   },
   {
-    "imageUrl": "./images/Book_Journal.png",
-    "title": "book journal",
-    "description": "A full-stack web application that allows users to search for books using the Open Library API and keep a personal journal of their readings with ratings and notes, all stored in a PostgreSQL database.",
-    "viewUrl": "https://book-journal-pi.vercel.app/",
-    "repoUrl": "https://github.com/farhandavin/book_journal"
-  },
-  {
-    "imageUrl": "./images/Dog_api.png",
-    "title": "Dog Api",
-    "description": "Dog Api dibuat agar saya bisa berlatih menggunakan API public, ini adalah website sederhana yang bisa memunculkan gambar anjing secara random dengan me-refresh halaman.",
+    "imageUrl": "./images/AiQuizGenerator.png",
+    "title": "Ai Quiz Generator",
+    "description": "A smart web application designed to automatically generate multiple-choice quizzes by analyzing uploaded study materials (PDF/Images) or raw text. This application is powered by Google Gemini AI to ensure high-quality question generation.",
     "viewUrl": "#",
-    "repoUrl": "https://github.com/farhandavin/Dog_Api"
-  },
-  {
-    "imageUrl": "./images/movie_practice_react.png",
-    "title": "Movie practice react",
-    "description": "saya membuat ini agar bisa lebih paham dalam penggunaan framework react, ini adalah website list movie dari penjuru dunia dengan menggunakan API public",
-    "viewUrl": "https://movie-practice-react-kt3w.vercel.app/",
-    "repoUrl": "https://github.com/farhandavin/Movie_practice_react"
-  },
-  {
-    "imageUrl": "./images/dice_game.png",
-    "title": "dice game",
-    "description": "ini adalah sebuah website sederhana dengan menggunakan bahasa js",
-    "viewUrl": "https://farhandavin.github.io/dice_game/",
-    "repoUrl": "https://github.com/farhandavin/dice_game"
-  },
-  {
-    "imageUrl": "./images/drum_kit.png",
-    "title": "drum kit",
-    "description": "Ssebuah web drum yang bisa memunculkan suara dengan menekan keyboard ",
-    "viewUrl": "https://farhandavin.github.io/drum_kit/",
-    "repoUrl": "https://github.com/farhandavin/drum_kit"
-  },
-  {
-    "imageUrl": "./images/simon_game.png",
-    "title": "simon game",
-    "description": "sebuah web yang terinspirasi dari game simon",
-    "viewUrl": "https://farhandavin.github.io/simon_game/",
-    "repoUrl": "https://github.com/farhandavin/simon_game"
+    "repoUrl": "https://github.com/farhandavin/webBelajarAi?tab=readme-ov-file"
   }
 ]
