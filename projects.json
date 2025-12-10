@@ -12,5 +12,54 @@
     "description": "A smart web application designed to automatically generate multiple-choice quizzes by analyzing uploaded study materials (PDF/Images) or raw text. This application is powered by Google Gemini AI to ensure high-quality question generation.",
     "viewUrl": "#",
     "repoUrl": "https://github.com/farhandavin/webBelajarAi?tab=readme-ov-file"
+  },
+  {
+    "imageUrl": "./images/Book_Journal.png",
+    "title": "Book Journal",
+    "description": "A full-stack web application that allows users to search for books using the Open Library API and keep a personal journal of their readings with ratings and notes, all stored in a PostgreSQL database.",
+    "viewUrl": "#",
+    "repoUrl": "https://github.com/farhandavin/book_journal"
+  },
+  {
+    "imageUrl": "./images/movie_practice_react.png",
+    "title": "Movie Practice App",
+    "description": "A dynamic movie discovery web application built with React and Vite. This application allows users to browse popular movies, search for specific titles, and manage a personalized list of favorite movies using the TMDB API.",
+    "viewUrl": "#",
+    "repoUrl": "https://github.com/farhandavin/Movie_practice_react.git"
+  },
+  {
+    "imageUrl": "./images/blog_farhan.png",
+    "title": "Blog Pribadi",
+    "description": "This blog features full CRUD (Create, Read, Update, Delete) functionality and showcases a modern Neumorphism (Soft UI) design.",
+    "viewUrl": "#",
+    "repoUrl": "https://github.com/farhandavin/blog_pribadi_farhan/tree/master"
+  },
+  {
+    "imageUrl": "./images/Book_Journal.png",
+    "title": "Book Journal",
+    "description": "A full-stack web application that allows users to search for books using the Open Library API and keep a personal journal of their readings with ratings and notes, all stored in a PostgreSQL database.",
+    "viewUrl": "#",
+    "repoUrl": "https://github.com/farhandavin/book_journal"
+  },
+  {
+    "imageUrl": "./images/simon_game.png",
+    "title": "simon game",
+    "description": "A web-based implementation of the classic electronic memory game, Simon. Test your memory by repeating sequences of colors and sounds that get progressively longer and faster!",
+    "viewUrl": "#",
+    "repoUrl": "https://github.com/farhandavin/simon_game.git"
+  },
+  {
+    "imageUrl": "./images/dice_game.png",
+    "title": "dice game",
+    "description": "A simple and fun two-player dice game built with JavaScript. Refresh the page to roll the dice and see who wins!",
+    "viewUrl": "#",
+    "repoUrl": "https://github.com/farhandavin/dice_game.git"
+  },
+  {
+    "imageUrl": "./images/drum_kit.png",
+    "title": "drum kit",
+    "description": "A fun and interactive web-based drum kit built with JavaScript. Play the drums by clicking on the instruments or by using your keyboard keys!",
+    "viewUrl": "#",
+    "repoUrl": "https://github.com/farhandavin/drum_kit.git"
   }
 ]
