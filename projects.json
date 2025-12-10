@@ -35,13 +35,6 @@
     "repoUrl": "https://github.com/farhandavin/blog_pribadi_farhan/tree/master"
   },
   {
-    "imageUrl": "./images/Book_Journal.png",
-    "title": "Book Journal",
-    "description": "A full-stack web application that allows users to search for books using the Open Library API and keep a personal journal of their readings with ratings and notes, all stored in a PostgreSQL database.",
-    "viewUrl": "#",
-    "repoUrl": "https://github.com/farhandavin/book_journal"
-  },
-  {
     "imageUrl": "./images/simon_game.png",
     "title": "simon game",
     "description": "A web-based implementation of the classic electronic memory game, Simon. Test your memory by repeating sequences of colors and sounds that get progressively longer and faster!",
