@@ -1,7 +1,7 @@
 [
   {
     "imageUrl": "./images/financeTracker.png",
-    "title": "Finance Tracker Ai",
+    "title": "Finance Tracker AI ",
     "description": "A personal finance management application featuring a unique hand-drawn (paper) aesthetic. It goes beyond simple tracking by integrating Google Gemini AI to provide intelligent financial insights and personalized advice.",
     "viewUrl": "",
     "repoUrl": "https://github.com/farhandavin/FinanceTracker"
